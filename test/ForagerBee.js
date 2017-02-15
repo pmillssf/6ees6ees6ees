@@ -1,7 +1,7 @@
 describe('ForagerBee class functionality', () => {
   var foragerBee;
 
-  beforeEach(() => foragerBee = new ForagerBee());
+  beforeEach(() => foragerBee = new ForagerBee(10, 'yellow', 'find pollen'));
 
   /*  Overwrite methods from superclass  */
 
