@@ -1,7 +1,7 @@
 describe('HoneyMakerBee class functionality', () => {
   var honeyBee;
 
-  beforeEach(() => honeyBee = new HoneyMakerBee(10));
+  beforeEach(() => honeyBee = new HoneyMakerBee(10, 'yellow', 'make honey'));
 
   /*  Overwrite methods from superclass  */
 
